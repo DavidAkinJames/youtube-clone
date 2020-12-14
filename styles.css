@@ -16,7 +16,7 @@ body {
 .right-header img{
    padding:10px;
 
-i
+
 }
 .left-header img {
 padding: 7px;
@@ -36,4 +36,31 @@ input {
     top: 3px;
     left: 10px;
     width: auto;
+}
+
+.descript {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.video-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -1px;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+    margin-right: 800px;
+    
+}
+.likes{
+    margin-right: 20px;
+}
+.dislikes {
+    margin-left: 20px;
+}
+
+.share {
+    margin-left: 25px;
 }
